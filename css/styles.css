@@ -103,16 +103,10 @@ img {
   background: var(--accent-color);
   border-radius: 2px;
 
-  /* opacity: 0; */
-
   transition: color 250ms var(--timing-function);
 
   bottom: -1px;
 }
-
-/* .main-nav__link--current::after {
-  opacity: 1;
-} */
 
 .main-nav__link {
   display: block;
@@ -132,10 +126,6 @@ img {
 .main-nav__link:focus {
   color: var(--accent-color);
 }
-
-/* .main-nav__link--current {
-  color: var(--accent-color);
-} */
 
 .contacts {
   margin-left: auto;
@@ -160,9 +150,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 
 .contacts__link:hover,
@@ -244,7 +232,6 @@ img {
 .button {
   display: inline-block;
   border-radius: 4px;
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
   padding: 10px 32px;
   border: 1px solid transparent;
 
@@ -263,29 +250,20 @@ img {
 
 /* features */
 
-.features-list {
+.features {
   display: flex;
   padding-left: 0px;
 }
 
-.features-list .item {
+.features__item {
   width: 270px;
 }
 
-.features-list .item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.section-title {
-  margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
-.features .title {
+.features__title {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -293,15 +271,11 @@ img {
   text-transform: uppercase;
 }
 
-.features .desc {
+.features__desc {
   color: var(--secondary-text-color);
 }
 
-.section .desc {
-  color: var(--secondary-text-color);
-}
-
-.icon-group {
+.features__icon {
   height: 120px;
   background-color: var(--secondary-background-color);
 
@@ -310,6 +284,17 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+}
+
+/* section-title */
+
+.section-title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* specialization */
@@ -891,21 +876,8 @@ textarea {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* .footer-logo {
-  display: inline-block;
-  margin-bottom: 20px;
-
-  color: var(--primary-background-color);
-
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-} */
-
 .adress-list {
   padding-left: 0px;
-  /* width: 231px; */
 }
 
 .adress-list .item:not(:last-child) {
