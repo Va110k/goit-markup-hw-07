@@ -34,27 +34,12 @@
   padding-right: 15px;
 }
 
-/* сброс стилей */
-
-h1,
-h2,
-h3,
-ul,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-img {
-  display: block;
-}
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.section-title {
+.section__title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -69,6 +54,42 @@ img {
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+/* button */
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 1px solid transparent;
+
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+}
+
+/* сброс стилей */
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
 }
 
 /* page-header */
@@ -236,27 +257,6 @@ img {
   text-transform: uppercase;
 }
 
-/* button */
-
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  padding: 10px 32px;
-  border: 1px solid transparent;
-
-  color: var(--primary-background-color);
-  background-color: var(--accent-color);
-
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.87;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  cursor: pointer;
-}
-
 /* features */
 
 .features {
@@ -341,27 +341,27 @@ img {
   background-color: var(--secondary-background-color);
 }
 
-.team-list {
+.team__list {
   display: flex;
   padding-left: 0px;
 }
 
-.team-list .item {
+.team__item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
   background-color: var(--primary-background-color);
 }
 
-.team-list .item:not(:last-child) {
+.team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.team .photo {
+.team__photo {
   margin-bottom: 30px;
 }
 
-.team .name {
+.team__name {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -369,7 +369,7 @@ img {
   line-height: 1.19;
 }
 
-.team .position {
+.team__position {
   color: var(--secondary-text-color);
 
   font-size: 16px;
@@ -378,9 +378,11 @@ img {
   margin-bottom: 16px;
 }
 
-.team-list .content {
+.team__content {
   text-align: center;
 }
+
+/* socials */
 
 .icon-list {
   display: flex;
@@ -414,9 +416,7 @@ img {
 .team-icons {
   fill: var(--secondary-text-color);
 
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: fill 250ms var(--timing-function);
 }
 
 .icon-link:focus .icons-group,
@@ -438,9 +438,7 @@ img {
 .client-link {
   color: #afb1b8;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 
 .clients-group {
@@ -453,9 +451,7 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 
-  transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: border 250ms var(--timing-function);
 }
 
 .client-link:hover,
@@ -493,9 +489,7 @@ img {
 
   transform: translateY(100%);
 
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: transform 250ms var(--timing-function);
 }
 
 .project-link:hover .project-overlay,
@@ -553,9 +547,7 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
 
-  transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: box-shadow 250ms var(--timing-function);
 }
 
 .projects-list .item:hover,
@@ -611,9 +603,7 @@ img {
 
   opacity: 1;
 
-  transition-property: opacity;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: opacity 250ms var(--timing-function);
 }
 
 .backdrop.is-hidden {
@@ -640,9 +630,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(1) rotate(0);
 
-  transition-property: transform;
-  transition-duration: 500ms;
-  transition-timing-function: var(--timing-function);
+  transition: transform 500ms var(--timing-function);
 }
 
 .button-modal {
@@ -669,9 +657,7 @@ img {
 .button-modal-icon {
   fill: currentColor;
 
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: fill 250ms var(--timing-function);
 }
 
 .button-modal:hover .button-modal-icon,
@@ -732,9 +718,7 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: border-color 250ms var(--timing-function);
 }
 
 .form-icon .modal-icon {
@@ -743,9 +727,7 @@ textarea {
   left: 12px;
   transform: translateY(-50%);
 
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: fill 250ms var(--timing-function);
 }
 
 .form-label .comment-input {
@@ -759,9 +741,7 @@ textarea {
   border-radius: 4px;
   resize: none;
 
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: border-color 250ms var(--timing-function);
 }
 
 .form-label .comment-input::placeholder {
@@ -804,9 +784,7 @@ textarea {
   border-radius: 3px;
   margin-right: 7px;
 
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: border-color 250ms var(--timing-function);
 }
 
 .checkbox:checked + .checkbox-icon {
@@ -925,9 +903,7 @@ textarea {
   font-size: 18px;
   line-height: 1.19;
 
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  transition: border-color 250ms var(--timing-function);
 }
 
 .form-input:focus {
