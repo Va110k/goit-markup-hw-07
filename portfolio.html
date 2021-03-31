@@ -23,28 +23,28 @@
         <header class="header">
             <div class="container">
                 <nav class="main-nav">
-                    <a href="./index.html" class="logo">
-                        <p class="logo-text"> <span class="accent">Web</span>Studio</p>
+                    <a href="./index.html" class="logo header__logo link">
+                        <p class="logo__text"><span class="logo__text--accent">Web</span>Studio</p>
                     </a>
         
-                    <ul class="site-nav list">
-                        <li class="item"><a href="./index.html" class="link">Студия</a></li>
-                        <li class="item"><a href="" class="link current">Портфолио</a></li>
-                        <li class="item"><a href="" class="link">Контакты</a></li>
+                    <ul class="main-nav__list list">
+                        <li class="main-nav__item"><a href="./index.html" class="main-nav__link link">Студия</a></li>
+                        <li class="main-nav__item"><a href="" class="main-nav__link main-nav__link--current link">Портфолио</a></li>
+                        <li class="main-nav__item"><a href="" class="main-nav__link link">Контакты</a></li>
                     </ul>
         
                     <ul class="contacts list">
-                        <li class="item">
-                            <a href="mailto:info@devstudio.com" class="contacts-link">
-                                <svg class="header-item" width="16px" height="12px">
+                        <li class="contacts__item">
+                            <a href="mailto:info@devstudio.com" class="contacts__link link">
+                                <svg class="contacts__icon" width="16px" height="12px">
                                     <use href="./images/sprite.svg#envelop"></use>
                                 </svg>
                                 info@devstudio.com
                             </a>
                         </li>
-                        <li class="item">
-                            <a href="tel:+380961111111" class="contacts-link">
-                                <svg class="header-item" width="10px" height="16px">
+                        <li class="contacts__item">
+                            <a href="tel:+380961111111" class="contacts__link link">
+                                <svg class="contacts__icon" width="10px" height="16px">
                                     <use href="./images/sprite.svg#smartphone"></use>
                                 </svg>
                                 +38 096 111 11 11
@@ -70,7 +70,7 @@
                 <h2 class="visually-hidden">Список проектов</h2>
                 <ul class="projects-list list">
                     <li class="item">
-                        <a href="" class="project-link">
+                        <a href="" class="project-link link">
                             <div class="project-image">
                                 <img src="./images/img1.jpg" alt="Проект №1">
                                 <div class="project-overlay">
@@ -86,7 +86,7 @@
                     </li>
 
                     <li class="item">
-                        <a href="" class="project-link">
+                        <a href="" class="project-link link">
                             <div class="project-image">
                                 <img src="./images/img2.jpg" alt="Проект №2">
                                 <div class="project-overlay">
@@ -102,7 +102,7 @@
                     </li>
 
                     <li class="item">
-                        <a href="" class="project-link">
+                        <a href="" class="project-link link">
                             <div class="project-image">
                                 <img src="./images/img3.jpg" alt="Проект №3">
                                 <div class="project-overlay">
@@ -118,7 +118,7 @@
                     </li>
 
                     <li class="item">
-                        <a href="" class="project-link">
+                        <a href="" class="project-link link">
                             <div class="project-image">
                                 <img src="./images/img4.jpg" alt="Проект №4">
                                 <div class="project-overlay">
@@ -135,7 +135,7 @@
                     </li>
 
                     <li class="item">
-                        <a href="" class="project-link">
+                        <a href="" class="project-link link">
                             <div class="project-image">
                                 <img src="./images/img5.jpg" alt="Проект №5">
                                 <div class="project-overlay">
@@ -152,7 +152,7 @@
                     </li>
 
                     <li class="item">
-                        <a href="" class="project-link">
+                        <a href="" class="project-link link">
                             <div class="project-image">
                                 <img src="./images/img6.jpg" alt="Проект №6">
                                 <div class="project-overlay">
@@ -169,7 +169,7 @@
                     </li>
 
                     <li class="item">
-                        <a href="" class="project-link">
+                        <a href="" class="project-link link">
                             <div class="project-image">
                                 <img src="./images/img7.jpg" alt="Проект №7">
                                 <div class="project-overlay">
@@ -186,7 +186,7 @@
                     </li>
 
                     <li class="item">
-                        <a href="" class="project-link">
+                        <a href="" class="project-link link">
                             <div class="project-image">
                                 <img src="./images/img8.jpg" alt="Проект №8">
                                 <div class="project-overlay">
@@ -203,7 +203,7 @@
                     </li>
 
                     <li class="item">
-                        <a href="" class="project-link">
+                        <a href="" class="project-link link">
                             <div class="project-image">
                                 <img src="./images/img9.jpg" alt="Проект №9">
                                 <div class="project-overlay">
@@ -226,59 +226,60 @@
     
 <!-- подвал страницы -->
 <footer class="footer">
-    <div class="container">
-        <div class="footer-section">
-            <a href="index.html" class="footer-logo">
-                <p> <span class="accent">Web</span>Studio</p>
+    <div class="container footer__container">
+        <div class="footer__contacts">
+            <a href="index.html" class="logo footer__logo link">
+                <p><span class="logo__text--accent">Web</span>Studio</p>
             </a>
             <address class="adress">
-                <ul class="adress-list list">
-                    <li class="item"><a href="" class="footer-link">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="item"><a href="mailto:info@example.com" class="footer-link mail">info@example.com</a>
+                <ul class="adress__list list">
+                    <li class="adress__item"><a href="" class="adress__link link">г. Киев, пр-т Леси Украинки, 26</a>
                     </li>
-                    <li class="item"><a href="tel:+380991111111" class="footer-link tel">+38 099 111 11 11</a></li>
+                    <li class="adress__item"><a href="mailto:info@example.com"
+                            class="adress__link adress__link--color link">info@example.com</a></li>
+                    <li class="adress__item"><a href="tel:+380991111111"
+                            class="adress__link adress__link--color link">+38 099 111 11 11</a></li>
                 </ul>
             </address>
         </div>
 
-
-        <div class="footer-wrapper">
-            <p class="invite">присоединяйтесь</p>
-            <ul class="icon-list list">
-                <li class="icon-items">
-                    <a href="" class="icon-link">
-                        <div class="icons-group">
-                            <svg class="footer-icons" width="20" height="20">
+        <div class="footer__socials">
+            <p class="footer__invite">присоединяйтесь</p>
+            <ul class="socials list">
+                <li class="socials__item">
+                    <a href="" class="socials__link link">
+                        <div class="socials__group socials__group--bgcolor">
+                            <svg class="socials__icon socials__icon--fill" width="20" height="20">
                                 <use href="./images/sprite.svg#instagram"></use>
                             </svg>
                         </div>
                     </a>
                 </li>
 
-                <li class="icon-items">
-                    <a href="" class="icon-link">
-                        <div class="icons-group">
-                            <svg class="footer-icons" width="20" height="20">
+                <li class="socials__item">
+                    <a href="" class="socials__link link">
+                        <div class="socials__group socials__group--bgcolor">
+                            <svg class="socials__icon socials__icon--fill" width="20" height="20">
                                 <use href="./images/sprite.svg#twitter"></use>
                             </svg>
                         </div>
                     </a>
                 </li>
 
-                <li class="icon-items">
-                    <a href="" class="icon-link">
-                        <div class="icons-group">
-                            <svg class="footer-icons" width="20" height="20">
+                <li class="socials__item">
+                    <a href="" class="socials__link link">
+                        <div class="socials__group socials__group--bgcolor">
+                            <svg class="socials__icon socials__icon--fill" width="20" height="20">
                                 <use href="./images/sprite.svg#facebook"></use>
                             </svg>
                         </div>
                     </a>
                 </li>
 
-                <li class="icon-items">
-                    <a href="" class="icon-link">
-                        <div class="icons-group">
-                            <svg class="footer-icons" width="20" height="20">
+                <li class="socials__item">
+                    <a href="" class="socials__link link">
+                        <div class="socials__group socials__group--bgcolor">
+                            <svg class="socials__icon socials__icon--fill" width="20" height="20">
                                 <use href="./images/sprite.svg#linkedin"></use>
                             </svg>
                         </div>
@@ -287,25 +288,23 @@
             </ul>
         </div>
 
-        <div class="footer-wrapper footer-form">
-            <b class="invite">Подпишитесь на рассылку</b>
-            <div class="mail">
-                <form class="form">
-                    <div class="form-field">
-                        <label>
-                            <input class="form-input" type="email" name="email" placeholder="E-mail" autocomplete="off">
-                        </label>
+        <div class="footer__form">
+            <p class="footer__invite">Подпишитесь на рассылку</p>
+            <form class="form">
+                <div class="form__field">
+                    <label>
+                        <input class="form__input" type="email" name="email" placeholder="E-mail" autocomplete="off">
+                    </label>
+                </div>
+                <div class="btn__field">
+                    <button type="submit" class="btn btn__footer">Подписаться</button>
+                    <div class="icon__field">
+                        <svg class="btn__icon" width="24" height="24">
+                            <use href="./images/sprite.svg#footer-btn"></use>
+                        </svg>
                     </div>
-                    <div class="btn-field">
-                        <button type="submit" class="button btn-footer">Подписаться</button>
-                        <div class="icon-send">
-                            <svg class="icon" width="24" height="24">
-                                <use href="./images/sprite.svg#footer-btn"></use>
-                            </svg>
-                        </div>
-                    </div>
-                </form>
-            </div>
+                </div>
+            </form>
         </div>
     </div>
 </footer>
