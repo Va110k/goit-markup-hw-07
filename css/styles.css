@@ -59,22 +59,26 @@
 /* button */
 
 .btn {
-  display: inline-block;
   border-radius: 4px;
-  padding: 10px 32px;
   border: 1px solid transparent;
+
+  font-family: inherit;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.btn-hero {
+  display: inline-block;
+  padding: 10px 32px;
+  align-items: center;
 
   color: var(--primary-background-color);
   background-color: var(--accent-color);
 
-  font-family: inherit;
-  font-size: 16px;
   line-height: 1.87;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-
-  cursor: pointer;
+  text-align: center;
 }
 
 .btn__field {
@@ -98,6 +102,39 @@
 .btn__icon {
   margin-top: 13px;
   margin-right: 28px;
+}
+
+.btn-filters {
+  padding: 6px 22px;
+
+  background-color: var(--secondary-background-color);
+
+  font-weight: 500;
+  line-height: 1.62;
+
+  transition-property: color, background-color, box-shadow, border-radius;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+}
+
+.btn-filters:hover,
+.btn-filters:focus {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.btn-modal-send {
+  display: flex;
+  align-self: center;
+
+  padding: 10px 56px;
+
+  font-weight: 700;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
 }
 
 /* сброс стилей */
@@ -480,13 +517,13 @@ img {
   transition: border 250ms var(--timing-function);
 }
 
+.clients__icon {
+  fill: currentColor;
+}
+
 .clients__link:hover,
 .clients__link:focus {
   color: var(--accent-color);
-}
-
-.clients__icon {
-  fill: currentColor;
 }
 
 .clients__link:hover .clients__group {
@@ -532,34 +569,6 @@ img {
 
 .filter-list .item {
   margin-right: 8px;
-}
-
-.button-secondary {
-  border-radius: 4px;
-  padding: 6px 22px;
-  border: 1px solid transparent;
-
-  background-color: var(--secondary-background-color);
-
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-
-  cursor: pointer;
-
-  transition-property: color, background-color, box-shadow, border-radius;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
-}
-
-.button-secondary:hover,
-.button-secondary:focus {
-  color: var(--primary-background-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
 
 .projects-list {
@@ -913,18 +922,6 @@ textarea {
 
 .policy .checkbox:focus + .checkbox-icon {
   border-color: var(--accent-color);
-}
-
-.btn-modal-send {
-  display: flex;
-  align-self: center;
-
-  padding: 10px 56px;
-
-  font-weight: 700;
-
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: none;
 }
 
 .form-input:focus + .modal-icon {
