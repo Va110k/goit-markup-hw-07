@@ -26,6 +26,10 @@
   list-style: none;
 }
 
+.img {
+  display: block;
+}
+
 /* reset stiles */
 
 h1,
@@ -35,10 +39,6 @@ ul,
 p {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-img {
-  display: block;
 }
 
 .container {
@@ -220,12 +220,12 @@ img {
   margin-right: 50px;
 }
 
-.main-nav__link--current {
+.main-nav__link-current {
   position: relative;
   color: var(--accent-color);
 }
 
-.main-nav__link--current::after {
+.main-nav__link-current::after {
   content: "";
 
   position: absolute;
@@ -309,11 +309,11 @@ img {
   color: var(--accent-color);
 }
 
-.logo--black {
+.logo-black {
   color: #000000;
 }
 
-.logo--inverse {
+.logo-inverse {
   color: var(--primary-background-color);
 }
 
@@ -533,10 +533,10 @@ img {
   background-color: var(--accent-color);
 }
 
-.socials__group--bgcolor {
+.socials__group-bgcolor {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.socials__icon--fill {
+.socials__icon-fill {
   fill: var(--primary-background-color);
 }
 
@@ -708,7 +708,7 @@ img {
   color: var(--secondary-background-color);
 }
 
-.adress__link--color {
+.adress__link-color {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -779,12 +779,12 @@ img {
   transition: opacity 250ms var(--timing-function);
 }
 
-.backdrop--is-hidden {
+.backdrop-is-hidden {
   opacity: 0;
   pointer-events: none;
 }
 
-.backdrop--is-hidden .modal {
+.backdrop-is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.2) rotate(360deg);
 }
 
