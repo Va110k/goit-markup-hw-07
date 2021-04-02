@@ -1,0 +1,15 @@
+$primaryColor: red;
+$secondaryColor: blue;
+
+body {
+  $secondaryColor: blue;
+  background: $primaryColor;
+}
+
+p {
+  color: $primaryColor;
+  background-color: $secondaryColor;
+  // Будет ошибка компиляции стилей, потому что
+  // переменная secondaryColor не доступна глобально.
+  // Она существует только в селекторе body.
+}
