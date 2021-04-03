@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AECA,UAAU,CACR,WAAW,CAAE,QAAQ,CACrB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,GAAG,CAAE,qDAAqD,CAC1D,GAAG,CAAE,SAAS,CACZ,4DAA4D,CAC1D,2BAA2B,CACf,uDAAuD,CACnE,eAAe,CAEf,sDAAsD,CAAC,cAAc,CACjD,qDAAqD,CACzE,kBAAkB,CAElB,4DAA4D,CAAC,aAAa,CAGhF,UAAU,CACR,WAAW,CAAE,QAAQ,CACrB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,GAAG,CAAE,iDAAiD,CACtD,GAAG,CAAE,SAAS,CACZ,wDAAwD,CACtD,2BAA2B,CACf,mDAAmD,CAC/D,eAAe,CAEf,kDAAkD,CAAC,cAAc,CAC7C,iDAAiD,CACrE,kBAAkB,CAElB,wDAAwD,CAAC,aAAa,CAG5E,UAAU,CACR,WAAW,CAAE,QAAQ,CACrB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,GAAG,CAAE,iDAAiD,CACtD,GAAG,CAAE,SAAS,CACZ,wDAAwD,CACtD,2BAA2B,CACf,mDAAmD,CAC/D,eAAe,CAEf,kDAAkD,CAAC,cAAc,CAC7C,iDAAiD,CACrE,kBAAkB,CAElB,wDAAwD,CAAC,aAAa,CAG5E,UAAU,CACR,WAAW,CAAE,QAAQ,CACrB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,GAAG,CAAE,iDAAiD,CACtD,GAAG,CAAE,SAAS,CACZ,wDAAwD,CACtD,2BAA2B,CACf,mDAAmD,CAC/D,eAAe,CAEf,kDAAkD,CAAC,cAAc,CAC7C,iDAAiD,CACrE,kBAAkB,CAElB,wDAAwD,CAAC,aAAa,CAG5E,UAAU,CACR,WAAW,CAAE,SAAS,CACtB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,GAAG,CAAE,yCAAyC,CAC9C,GAAG,CAAE,SAAS,CACZ,gDAAgD,CAAC,2BAA2B,CAC9D,2CAA2C,CAAC,eAAe,CAC7C,0CAA0C,CACpE,cAAc,CACM,yCAAyC,CAC7D,kBAAkB,CACO,iDAAiD,CAC1E,aAAa",
+    "mappings": "AECA,UAAU,CACR,WAAW,CAAE,QAAQ,CACrB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,GAAG,CAAE,qDAAqD,CAC1D,GAAG,CAAE,SAAS,CACZ,4DAA4D,CAC1D,2BAA2B,CACf,uDAAuD,CACnE,eAAe,CAEf,sDAAsD,CAAC,cAAc,CACjD,qDAAqD,CACzE,kBAAkB,CAElB,4DAA4D,CAAC,aAAa,CAGhF,UAAU,CACR,WAAW,CAAE,QAAQ,CACrB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,GAAG,CAAE,iDAAiD,CACtD,GAAG,CAAE,SAAS,CACZ,wDAAwD,CACtD,2BAA2B,CACf,mDAAmD,CAC/D,eAAe,CAEf,kDAAkD,CAAC,cAAc,CAC7C,iDAAiD,CACrE,kBAAkB,CAElB,wDAAwD,CAAC,aAAa,CAG5E,UAAU,CACR,WAAW,CAAE,QAAQ,CACrB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,GAAG,CAAE,iDAAiD,CACtD,GAAG,CAAE,SAAS,CACZ,wDAAwD,CACtD,2BAA2B,CACf,mDAAmD,CAC/D,eAAe,CAEf,kDAAkD,CAAC,cAAc,CAC7C,iDAAiD,CACrE,kBAAkB,CAElB,wDAAwD,CAAC,aAAa,CAG5E,UAAU,CACR,WAAW,CAAE,QAAQ,CACrB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,GAAG,CAAE,iDAAiD,CACtD,GAAG,CAAE,SAAS,CACZ,wDAAwD,CACtD,2BAA2B,CACf,mDAAmD,CAC/D,eAAe,CAEf,kDAAkD,CAAC,cAAc,CAC7C,iDAAiD,CACrE,kBAAkB,CAElB,wDAAwD,CAAC,aAAa,CAG5E,UAAU,CACR,WAAW,CAAE,SAAS,CACtB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,GAAG,CAAE,yCAAyC,CAC9C,GAAG,CAAE,SAAS,CACZ,gDAAgD,CAAC,2BAA2B,CAC9D,2CAA2C,CAAC,eAAe,CAC7C,0CAA0C,CACpE,cAAc,CACM,yCAAyC,CAC7D,kBAAkB,CACO,iDAAiD,CAC1E,aAAa,CMtFnB,AAAA,KAAK,AAAC,CACJ,gBAAgB,CJES,IAAO,CIDhC,KAAK,CJFc,OAAO,CII1B,WAAW,CAAE,kBAAkB,CAC/B,cAAc,CAAE,MAAM,CACtB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CAClB",
     "sources": [
         "../sass/main.scss",
         "../sass/base/_index.scss",
@@ -9,7 +9,23 @@
         "../sass/utils/_variables.scss",
         "../sass/utils/_placeholders.scss",
         "../sass/utils/_visually-hidden.scss",
-        "../sass/components/_index.scss"
+        "../sass/components/_index.scss",
+        "../sass/components/_body.scss",
+        "../sass/components/_buttons.scss",
+        "../sass/components/_header.scss",
+        "../sass/components/_logo.scss",
+        "../sass/components/_nav.scss",
+        "../sass/components/_contacts.scss",
+        "../sass/components/_hero.scss",
+        "../sass/components/_features.scss",
+        "../sass/components/_specialization.scss",
+        "../sass/components/_team.scss",
+        "../sass/components/_socials.scss",
+        "../sass/components/_clients.scss",
+        "../sass/components/_projects.scss",
+        "../sass/components/_footer.scss",
+        "../sass/components/_address.scss",
+        "../sass/components/_modal.scss"
     ],
     "names": [],
     "file": "main.min.css"
