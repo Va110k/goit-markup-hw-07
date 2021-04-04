@@ -5,10 +5,16 @@
   padding-left: 0px;
   justify-content: center;
   padding-bottom: 30px;
+
+  @extend %list;
 }
 
 .socials__item:not(:last-child) {
   margin-right: 10px;
+}
+
+.socials__link {
+  @extend %link;
 }
 
 .socials__group {

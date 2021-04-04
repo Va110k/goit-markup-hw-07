@@ -1,4 +1,4 @@
-/* :root {
+/* /* :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
@@ -16,12 +16,12 @@
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
-}
-
-.link {
-  text-decoration: none;
 } */
 
+/* .link {
+  text-decoration: none;
+} */
+/* 
 .list {
   list-style: none;
   margin-top: 0;
@@ -57,7 +57,7 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-}
+} */
 
 /* .visually-hidden {
   position: absolute;

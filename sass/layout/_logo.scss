@@ -3,6 +3,8 @@
   font-size: 26px;
   line-height: 1.19;
   color: $accent-color;
+
+  @extend %link;
 }
 
 .logo-black {
@@ -20,4 +22,8 @@
 .footer__logo {
   display: inline-block;
   margin-bottom: 20px;
+}
+
+.reset-styles {
+  @extend %reset-styles;
 }

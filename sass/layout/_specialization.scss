@@ -5,6 +5,8 @@
 .specialization {
   display: flex;
   padding-left: 0px;
+
+  @extend %list;
 }
 
 .specialization__item {

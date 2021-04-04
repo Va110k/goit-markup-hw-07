@@ -45,6 +45,8 @@
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
+
+  @extend %reset-styles;
 }
 
 .form-modal {

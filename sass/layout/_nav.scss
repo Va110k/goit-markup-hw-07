@@ -6,6 +6,8 @@
 .nav {
   display: flex;
   padding-left: 0px;
+
+  @extend %list;
 }
 
 .nav__item:not(:last-child) {
@@ -53,4 +55,6 @@
   &:focus {
     color: $accent-color;
   }
+
+  @extend %link;
 }

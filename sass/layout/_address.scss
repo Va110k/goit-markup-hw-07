@@ -4,6 +4,8 @@
 
 .adress__list {
   padding-left: 0px;
+
+  @extend %list;
 }
 
 .adress__item:not(:last-child) {
@@ -13,6 +15,8 @@
 .adress__link {
   font-style: normal;
   color: $secondary-background-color;
+
+  @extend %link;
 }
 
 .adress__link-color {

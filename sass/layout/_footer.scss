@@ -22,6 +22,8 @@
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 20px;
+
+  @extend %reset-styles;
 }
 
 .footer__form {

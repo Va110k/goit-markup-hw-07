@@ -1,6 +1,8 @@
 .features {
   display: flex;
   padding-left: 0px;
+
+  @extend %list;
 }
 
 .features__item {
@@ -17,10 +19,14 @@
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+
+  @extend %reset-styles;
 }
 
 .features__desc {
   color: $secondary-text-color;
+
+  @extend %reset-styles;
 }
 
 .features__icon {
