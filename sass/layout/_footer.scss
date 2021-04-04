@@ -19,9 +19,11 @@
 .footer__invite {
   color: $primary-background-color;
   font-weight: 700;
-  line-height: 1.14;
+
   text-transform: uppercase;
   margin-bottom: 20px;
+
+  @include font-style(1.14);
 
   @extend %reset-styles;
 }
@@ -48,8 +50,7 @@
   background-color: $header-footer-background-color;
   padding-left: 16px;
 
-  font-size: 18px;
-  line-height: 1.19;
+  @include font-style(1.19, 18px);
 
   transition: border-color $timing $timing-function;
 
@@ -61,8 +62,8 @@
   }
 
   &::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
+    @include font-style(1.25, 16px);
+
     color: rgba(255, 255, 255, 0.6);
   }
 }

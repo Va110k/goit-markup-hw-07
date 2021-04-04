@@ -31,9 +31,8 @@
 .team__name {
   margin-bottom: 10px;
 
+  @include font-style(1.19, 16px);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
 
   @extend %reset-styles;
 }
@@ -41,8 +40,7 @@
 .team__position {
   color: $secondary-text-color;
 
-  font-size: 16px;
-  line-height: 1.19;
+  @include font-style(1.19, 16px);
 
   margin-bottom: 16px;
 

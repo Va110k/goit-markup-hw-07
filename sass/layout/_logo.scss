@@ -1,7 +1,6 @@
 .logo {
   font-family: Raleway;
-  font-size: 26px;
-  line-height: 1.19;
+  @include font-style(1.19, 26px);
   color: $accent-color;
 
   @extend %link;

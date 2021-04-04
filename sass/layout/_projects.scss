@@ -60,8 +60,8 @@
 
   background-color: rgba(33, 150, 243, 0.9);
   color: $primary-background-color;
-  font-size: 18px;
-  line-height: 1.55;
+
+  @include font-style(1.55, 18px);
 
   transform: translateY(100%);
 
@@ -88,9 +88,7 @@
   color: $primary-text-color;
 
   font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font-style(2, 18px, 0.06em);
 
   @extend %reset-styles;
 }
@@ -98,8 +96,7 @@
 .project_filter {
   color: $secondary-text-color;
 
-  font-size: 16px;
-  line-height: 1.87;
+  @include font-style(1.87, 16px);
 
   @extend %reset-styles;
 }
